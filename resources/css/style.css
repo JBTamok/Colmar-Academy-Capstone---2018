@@ -1,0 +1,116 @@
+/*universal styles*/
+
+html {
+    font-family: helvetica;
+    font-size: 16px;
+}
+
+.container {
+ padding: 0 2rem;
+    
+}
+
+.section-container {   
+    width: 60%;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+/*header */
+
+
+header .container {
+   height: 4rem;
+   display: flex;
+   justify-content: space-between; 
+   align-items: center;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+nav li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+#academy {
+    color: grey;
+}
+
+/* banner */
+
+.banner {
+    background-color: lightgrey;  
+}
+
+.banner-section {
+    display: flex;
+}
+
+.banner-img img {
+    width: 100%;
+    margin: 2rem 0;  
+}
+
+.banner-div {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+.banner-text {
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.banner-btn {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+    background-color: grey;
+}
+
+.banner-btn span {
+    color: white;
+    padding: 1rem 0;
+}
+
+/* Main section */
+
+
+.main-section {
+    display: flex;
+}
+
+.main img {
+    width: 100%
+}
+
+.main img {
+    width: 100%;
+}
+
+.side-article {
+    
+    margin-left: 2rem;
+}
+
+.orientation {
+    display: flex;
+    width: 65%;
+}
+
+.orientation img {
+    width: 35%;
+    height: auto;
+}
