@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  
   <link rel="stylesheet" href="./resources/css/reset.css">
   <link rel="stylesheet" href="./resources/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alegreya+SC" rel="stylesheet">    
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700" rel="stylesheet">    
-  <title>Fotomatic</title>
+  <title>Online &#38; On Campus Courses and Lectures | Colmar Academy</title>
 </head>
 <body>
   <!-- Header -->
@@ -18,7 +17,7 @@
             <img src="resources/capstone_colmar_assets/images/ic-logo.svg" alt="Colmar Academy Logo">
             <span id="colmar">COLMAR</span><span id="academy">ACADEMY</span>
         </div>
-        <nav>
+        <nav class="desktop">
             <ul>
                 <a href="#"><li>On Campus</li></a>
                 <a href="#"><li>Online</li></a>
@@ -26,6 +25,14 @@
                 <a href="#"><li>Sign in</li></a>
             </ul>  
         </nav>
+        <nav class="mobile">
+        <ul>
+          <li><a href="#"><img src="resources/capstone_colmar_assets/images/ic-logo.svg"></a></li>
+          <li><a href="#"><img src="resources/capstone_colmar_assets/images/ic-on-campus.svg"></a></li>
+          <li><a href="#"><img src="resources/capstone_colmar_assets/images/ic-online.svg"></a></li>
+          <li><a href="#"><img src="resources/capstone_colmar_assets/images/ic-login.svg"></a></li>
+        </ul>
+      </nav>
       </div>
           
     </header>
@@ -66,7 +73,8 @@
                 
                 <div class="side-article orientation">
                       <div class="article-img"> 
-                        <img src="resources/capstone_colmar_assets/images/information-orientation.jpg" alt="information orientation">
+                        <img src="resources/capstone_colmar_assets/images/information-orientation.jpg" alt="information orientation" class="desktop-img">
+                        <img src="resources/capstone_colmar_assets/images/information-orientation-mobile.jpg" alt="information orientation" class="mobile-img">
                     </div>
                     <div class="article-text">
                         <h3>Orientation date</h3>
@@ -110,8 +118,7 @@
             <h2>Start Learning</h2>
         </div>
         <div class="course-container">
-            
-        
+                
             <div class="course software">
                 <img src="resources/capstone_colmar_assets/images/course-software.jpg" alt="software classes with Colmar Academy">
                 <div class="course-text">
@@ -120,9 +127,7 @@
                     <p>Web Development, Mobile Development, iOT, APIs</p>
                 </div>
             </div>
-        
-        
-        
+            
             <div class="course computer-art">
                 <img src="resources/capstone_colmar_assets/images/course-computer-art.jpg" alt="computer art classes with Colmar Academy">
                 <div class="course-text">
@@ -132,8 +137,7 @@
                 </div>
             </div>
         
-        
-        
+     
             <div class="course design">
                 <img src="resources/capstone_colmar_assets/images/course-design.jpg" alt="design classes with Colmar Academy">
                 <div class="course-text">
@@ -143,8 +147,7 @@
                 </div>
             </div>
        
-            
-        
+     
             <div class="course data">
                 <img src="resources/capstone_colmar_assets/images/course-data.jpg" alt="data classes with Colmar Academy">
                 <div class="course-text">
@@ -154,8 +157,7 @@
                 </div>
             </div>
        
-            
-        
+     
             <div class="course Business">
                 <img src="resources/capstone_colmar_assets/images/course-business.jpg" alt="business classes with Colmar Academy">
                 <div class="course-text">
@@ -165,8 +167,7 @@
                 </div>
             </div>
        
-            
-       
+    
             <div class="course Marketing">
                 <img src="resources/capstone_colmar_assets/images/course-marketing.jpg" alt="marketing classes with Colmar Academy">
                 <div class="course-text">
@@ -182,12 +183,12 @@
     <!--Thesis Exhibit-->
     
     <div class="container">
-        <div class="learning-title">
+        <div class="learning-title exhibit">
             <h2>Thesis exhibit</h2>
         </div>
         <div class="main-section">
-            <div class="section-container main">
-                <video>
+            <div class="section-container thesis">
+                <video controls>
                    <source src="resources/capstone_colmar_assets/videos/thesis.mp4" type="video/mp4">
                 </video>
                 <h2>Reimagine urban</h2>
@@ -215,13 +216,23 @@
                         <p>Research study about New York</p>
                     </div>               
                 </div>
-                
-             
-                
+                      
             </div>
-        
         </div>
-    
     </div>
+    
+    <footer>
+        <div class="container">
+          <div class="copyright">
+            <span>&#169; Colmar Academy. All rights reserved</span>
+            <div class="footer-nav">
+                <ul>
+                    <a href="#"><li>Terms</li></a>
+                    <a href="#"><li>Privacy</li></a>
+                </ul>  
+            </div>
+          </div>
+      </div>
+    </footer>
     
 </body>
